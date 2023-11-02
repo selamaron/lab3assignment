@@ -1,0 +1,4 @@
+A SubClass is always an Instance from the SuperClass Because it knows everything about it's methods and date members, so an instance of the SubClass can be casted to SuperClass. But the opposite is not always true,
+In this example we can't cast the Person to PersonWithJob, If we tried that, an Exception will be thrown because it't not an instance of it.
+1st Output: 'False' because the SuperClass is not an instance of the SubClass, and can't be casted to it.
+2nd Output: 'True' because the SubClass is an instance of the SuperClass, and can be casted to it.
